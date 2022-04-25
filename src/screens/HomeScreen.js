@@ -44,7 +44,7 @@ function HomeScreen() {
       {loading ? (
         <div>Loading...</div>
       ) : error ? (
-        <div>{error} </div>
+        <div>{error}</div>
       ) : (
         products.map(product => (
           <div className="product" key={product.slug}>
@@ -59,7 +59,8 @@ function HomeScreen() {
               <button>Add to cart</button>
             </div>
           </div>
-        ))}
+        ))
+      )};
     </div>
   </div>
 }
