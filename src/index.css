@@ -8,18 +8,11 @@ body {
 .site-container {
   min-height: 100vh;
 }
-
-header {
+/* header {
   background-color: #404040;
   padding: 1rem;
-}
-header a {
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
-}
+} */
 main {
-  padding: 1rem;
   flex: 1;
 }
 .btn-primary,
